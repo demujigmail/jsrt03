@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e85c0d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+.number {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button#reset-button, button#setting-button, button#cancel-button {
+    background-color: #999999;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 10px;
+}
+
+label {
+    font-size: 1.2em;
+}
