@@ -47,13 +47,13 @@ function randomizeNumber() {
             }
         }, intervalTime);
     } else if (availableNumbers.length === 0) {
-        resultElement.innerText = "Habis";
+        resultElement.innerText = "~#~";
     }
 }
 
 function resetNumbers() {
     initialize();
-    resultElement.innerText = "---";
+    resultElement.innerText = "RT3";
     isAnimating = false;
 }
 
@@ -78,6 +78,7 @@ saveButton.addEventListener('click', () => {
     startNumber = parseInt(startNumberInput.value);
     endNumber = parseInt(endNumberInput.value);
     initialize();
+    resetNumbers();
     showMainPage();
 });
 
