@@ -15,22 +15,36 @@ body {
 }
 
 .number {
-    font-size: 8em;
+    font-size: 10em;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
-button {
-    padding: 10px 20px;
+/* Tombol Acak */
+button#random-button {
+    padding: 15px 30px;
     margin: 10px;
     background-color: #4CAF50;
-    border: none;
+    border: 2px solid black;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 15px; /* Membulatkan sudut tombol */
+}
+
+/* Tombol lainnya: Reset, Setting, Batal, Simpan */
+button#reset-button,
+button#setting-button,
+button#cancel-button,
+button#save-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #999999;
+    border: 2px solid #4d4d4d; /* Border abu-abu tua */
     color: white;
     font-size: 1em;
     cursor: pointer;
-}
-
-button#reset-button, button#setting-button, button#cancel-button {
-    background-color: #999999;
+    border-radius: 10px; /* Membulatkan sudut tombol */
 }
 
 input {
