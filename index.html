@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengundian Kartu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Halaman Utama -->
+    <div id="main-page" class="page active">
+        <h2>RT 03, RW 15 Margomulyo</h2>
+        <div id="result" class="number">---</div>
+        <button id="random-button">Acak</button>
+        <p>Sisa: <span id="remaining">0</span></p>
+        <button id="reset-button">Reset</button>
+        <button id="setting-button">Setting</button>
+    </div>
+
+    <!-- Halaman Setting -->
+    <div id="setting-page" class="page">
+        <h2>RT 03, RW 15 Margomulyo</h2>
+        <label for="start-number">Nomor awal:</label>
+        <input type="number" id="start-number" value="300">
+        <label for="end-number">Nomor akhir:</label>
+        <input type="number" id="end-number" value="397">
+        <button id="cancel-button">Batal</button>
+        <button id="save-button">Simpan</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
