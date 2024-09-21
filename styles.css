@@ -1,12 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e85c0d;
+    background-color: #c77c00;
     color: white;
     text-align: center;
     padding: 20px;
 }
 p{
     font-size: 1.5em;
+    margin-right: 260px;
+
 }
 .page {
     display: none;
@@ -16,6 +18,9 @@ p{
     display: block;
     width: 100%;
     border: solid 1px grey;
+    padding-bottom: 40px;
+    background-color: #ec671c;
+
 }
 
 .number {
@@ -65,4 +70,5 @@ input {
 
 label {
     font-size: 1.2em;
+    margin-right: 240px;
 }
