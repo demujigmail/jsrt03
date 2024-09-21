@@ -26,7 +26,7 @@ function initialize() {
 function randomizeNumber() {
     if (availableNumbers.length > 0 && !isAnimating) {
         isAnimating = true;
-        let animationDuration = 2000; // Durasi animasi 2 detik
+        let animationDuration = 500; // Durasi animasi 2 detik
         let intervalTime = 100; // Waktu setiap perubahan nomor selama animasi
         let animationStartTime = Date.now();
         
